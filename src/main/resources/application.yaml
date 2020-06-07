@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Tizor/Spring-cloud-config-service
+
+
+          # для вызова файла из ГИТа использвать следующий URL http://localhost:8888/Spring-cloud-config-service/application.yaml"
+          #http://localhost:8888/{название репозитория}/{название файла}
